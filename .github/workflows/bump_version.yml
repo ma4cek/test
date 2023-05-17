@@ -1,0 +1,13 @@
+name: Bump version
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bump version and push tag
+        id: tag_version
+        uses: ma4cek/github-tag-action@master
+        
