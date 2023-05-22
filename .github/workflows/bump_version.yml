@@ -9,8 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Release config
-        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v3
+      - name: Install node modules
+        run: npm i conventional-changelog-angular
       - name: Bump version and push tag
         id: tag_version
         uses: ma4cek/tag-action@main
