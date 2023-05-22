@@ -1,4 +1,4 @@
 module.exports = [
-  {type: 'MINOR', release: 'minor'},
-  {type: 'MAJOR', release: 'major'}
+  {tag: 'MINOR', release: 'minor'},
+  {tag: 'MAJOR', release: 'patch'},
 ];
