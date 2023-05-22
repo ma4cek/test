@@ -1,4 +1,4 @@
 module.exports = [
   {tag: 'MINOR', release: 'minor'},
-  {tag: 'MAJOR', release: 'patch'},
+  {tag: 'MAJOR', release: 'patch'}
 ];
